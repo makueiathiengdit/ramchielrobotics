@@ -1,0 +1,164 @@
+
+.team-member
+{
+   width: 50%;
+   background-color:#43f773;
+   display: table-cell; 
+}
+.team-member a
+{
+     border-bottom: 3px double blue;
+}
+
+a img
+{
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 30px;
+	display: block;
+	opacity: 0.5;
+}
+div p
+{
+	text-align: center;
+	padding-top: 2px;
+	margin: 18px;
+	padding-right: 30%;
+	color: green;
+	font-size: 20px;
+	font-family: sans-serif;
+
+
+}
+
+img
+{
+	width: 100px;
+	padding: 20px;
+	margin-left: 60px;
+
+}
+
+a{
+	text-align: center;
+	float: right;
+	margin-bottom: 30px;
+	margin-right: 120px;
+	text-decoration: none;
+	width: 150px;
+}
+.team h2
+{
+	text-align: center;
+}
+
+
+img:hover
+{
+	display: inline-flex;
+	opacity: 1;
+	border-color: red;
+	border-bottom-color: blue;
+	cursor: pointer;
+}
+
+a:hover
+{
+	opacity: 0.9;
+}
+
+#team-header
+{
+	text-align: center;
+
+}
+
+
+h2{
+	text-align: center;
+	width: 500px;
+	border-bottom: 3px solid blue;
+	margin-left: 90px;
+	float: left;
+
+}
+
+header nav a
+{
+	background-color:none;
+	color: green;
+	font-size: 24px;
+	font-family: sans-serif;
+	margin-top: 30px;
+	border : 3px solid blue;
+	border-radius: 8px;
+}
+
+nav > a
+{
+    margin-left: 10px;
+}
+header{
+	background-color: green;
+	background-image: url("../photos/p7.jpeg");
+}
+
+header nav a:hover
+{
+	background-color: green;
+	border-radius: 19px;
+	color: white;
+	border-style: inset;
+}
+
+footer
+{
+	padding-top: 40px;
+}
+footer nav a
+{
+	font-size: 24px;
+	font-family: sans-serif;
+	color: green;
+}
+footer nav a:hover
+{
+  background-color: green;
+  border-radius: 19px;
+  color: white;
+}
+body
+{ 
+	background-color: transparent;
+	background-image: url("C:/Users/Awetphon/Desktop/Ramchiel Robotics/photos/ram.jpg");
+	background-position: cover;
+	background-size: cover;
+
+}
+
+
+h2
+{
+  color: green;
+  margin-bottom: 40px;
+  text-align: center;
+  display: block;
+}
+#h
+{
+	
+	padding-top: 30px;
+	margin-top: 30px;
+	display: block;
+	width: 200px;
+}
+
+nav
+{
+	position: fixed;
+	background-color: #e8a6f7;
+	margin: 5%;
+	border-radius: 8px;
+}

@@ -1,0 +1,171 @@
+/* Please scroll down. CSS for this assignment(TEAM PAGE- STYLING TABLE) is down*/
+
+
+header
+{
+	padding: 3px;
+   background-color: #7fabd4;
+   background-image: url("../images/flywheel.jpg");
+}
+
+h1
+{
+	text-align: center;
+	font-size: 24px;
+	color: #46a4d4;
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+
+section
+{
+   background-color: none;
+   display: inline-block;
+}
+nav
+{
+	position: fixed;
+}
+nav a
+{
+   display: inline-block;
+   margin: 3px;
+   border-radius: 9px;
+   text-decoration: none;
+   padding: 4px;
+   background-color: #bdf018;
+
+}
+
+nav a:hover
+{
+   background-color: #dc63f7;
+}
+nav a:focus
+{
+   background-color: #e8a6f7;
+}
+ .active
+{
+	color: #ed248f;
+	background-color: #ebf5f4;	
+}
+
+aside img
+{
+	display: block;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	border: 2px groove #d60cf5; 
+	width: 70%;
+	background-position: center;
+}
+
+.left
+{
+	align-content: center;
+	width: 150px;
+	height: 270px;
+	background-color: #03fc31;
+	margin-left: 4px;
+	display: inline-block;
+	margin-top: 2%;
+}
+body
+{
+	padding: 2px;
+	margin: 2px;
+}
+
+.right
+{
+    align-content: center;
+	background-color: none;
+	float: right;
+	display: inline-block;
+
+}
+.left, .right
+{
+   display: inline-block;
+   margin-top: 1%;
+}
+
+
+
+table 
+{
+	font-family: "monospace" sans-serif, elephat, Courier, new times romans;
+	font-size: 15px;
+	font-weight: 3px;
+	line-height: 5px;
+	width: 70%;
+	margin-right: 7%
+	margin-left: 7%;
+	background-color: #8c05e6;
+    border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+
+
+table tr th 
+{
+	background-color: #8c05e6;
+	border: 1px solid #3d0363;
+	padding: 3px;
+	height: 24px;
+	border-bottom: 6px solid #3d0363;
+	color: #ffffff;
+	margin: 6px;
+}
+
+table tr
+{
+	margin: 9px;
+	opacity: 0.7;
+	border: 2px solid #ffffff;
+	height: 17px;
+	text-align: left;
+}
+table tr th
+{
+	text-align: center;
+}
+
+table tr th:first-of-type
+{
+	text-align:left;
+}
+
+table tr:hover
+{
+	opacity: 1;
+	cursor: pointer;
+}
+
+table td 
+{
+	padding: 6px;
+	margin: 7px;
+	border-radius: 2px;
+	background-color: #dda4ed;
+	color: #3d0363;
+
+	/*center all data but later i left-align first column data*/
+	text-align: center;
+}
+
+/*aligning first column to left*/
+table tr td:first-of-type
+{
+	text-align:left;
+}
+
+
+table tr:nth-child(odd)
+{
+	background-color: #e187fa;
+	margin-bottom: 3px;
+	margin-bottom: 3px;
+}
+

@@ -1,0 +1,72 @@
+
+
+header
+{
+	align-content: center;
+	width: 50%;
+	display: block;
+}
+
+ nav 
+{
+	padding: 5px;
+	margin-bottom: 5px;
+	display: block;
+	float: none;
+}
+
+ a
+{
+	padding: 0 5%;
+	text-decoration: none;
+	border-bottom: 3px solid blue;
+	text-align: center;
+	color: #00bf46
+	font-size: 35px;
+	display: inline-block;
+	margin: 2% 4%;
+}
+
+nav a:hover
+{
+	background-color:#50c0e6;
+	font-size:24px;
+	font-family: sans-serif; 
+	border-radius: 6%;
+	border-left-color: solid blue;
+	border-right-color: solid blue;
+}
+section 
+{
+	background-color:#50c0e6; 
+	display: inline-block;
+	width: 300px;
+	text-align: center;
+	margin: 1%;
+	float: left;
+	border-top: 15px outset blue;
+	margin-top: 10%;
+	position: relative;
+	opacity: 0.8;
+}
+
+img
+{
+	width: 56%;
+	height: 50%;
+	display: inline-block;
+	margin: 5% 20%;
+	border-radius: 50%;
+}
+
+body
+{
+	background: transparent;
+	background-size: cover;
+	background-image: url("C:/Users/Awetphon/Desktop/Ramchiel Robotics/photos/p18.jpeg");
+}
+
+.sh
+{
+  background-image: url('../photos/p5');
+}

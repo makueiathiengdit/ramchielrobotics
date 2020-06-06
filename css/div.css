@@ -1,0 +1,18 @@
+
+div
+{
+	width:200px;
+	height: 400px;
+    background-color:#609bf7;
+	color: red;
+	display: block;
+	margin: 3px 3px 3px 3px;
+	overflow: auto;
+	float: left;
+	align-content: center;
+	text-align: center;
+	border-radius: 15px;
+	border-width: 3px;
+	border-color: blue;
+	border: 3px;
+}
