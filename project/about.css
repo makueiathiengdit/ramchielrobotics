@@ -1,0 +1,189 @@
+
+
+
+body
+{
+  background-image: url(college.jpg), url(gt.jpg);
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
+}
+
+
+#logo
+{
+	float: left;
+	width: 2%;
+	display: inline-block;
+	margin: 1%;
+	margin-top: 5px;
+	border-radius: 50%;
+	margin-left: 2%;
+}
+#logo-span
+{
+  color: white;
+  font-family: sans-serif;
+  font-family: 28px;
+  display: inline-block;
+  margin-top: 4px;
+}
+
+nav
+{
+	width: 48vw;
+	height: 3%;
+	background-color: #03fc31;
+	margin-top: 2%;
+	margin-left: 19%;
+	border-radius: 16px;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav a
+{
+	text-decoration: none;
+	font-family: sans-serif;
+	padding: 6px 30px;
+	margin: 4px 2px;	
+	display: inline-block;
+	border-right:  1px solid black;
+	flex: auto;
+}
+
+/* Not neccessary now
+nav a:last-child
+{
+	margin-right: 2px;
+	padding-right: 25px;
+	border-right: none;
+}
+*/
+
+nav a:hover
+{
+	background-color: black;
+	border-radius: 25px;
+	color: white;
+}
+
+.active
+{
+	background-color: black;
+	border-radius: 25px;
+	color: white;
+}
+
+span
+{
+	display: inline-block;
+	color: currentColor;
+	font-family: sans-serif;
+	font-size: 22px;
+	text-align: center;
+	width: 30px;
+	margin-top: 9%;
+	margin-left: 3%;
+}
+
+
+.team img 
+{
+	border-radius: 50%;
+	width: 45%;
+	/margin-left: 65px;
+	/margin-right: 60px;
+	opacity: 0.7;
+	/position: relative;
+	/bottom: 70%;
+	/left: 40%;
+	/top: 25%;
+	/right: 80%;
+     float: right;
+}
+
+.team img:hover
+{
+	opacity: 1;
+	cursor: pointer;
+}
+
+.team
+{
+	background-color:  #03fc31;
+	margin: 9px;
+	margin-top: 2%;
+	width: 221px;
+	display: inline-block;
+	border-top-right-radius: 19.7%;
+	border-bottom-left-radius: 25%;
+}
+
+.team p
+{
+	clear: right;
+	text-align: center;
+	padding: 0px;
+	font-family: sans-serif;
+	color: currentColor;
+	/display: none;
+}
+
+.team p:first-of-type /* styling every first pragraph*/
+{
+	color: red;
+	font-family: monospace;
+}
+
+.team p:hover
+{
+	display: block;
+}
+
+div h1
+{
+	text-align: center;
+	font-family: sans-serif;
+	border-bottom: 2px solid green;
+}
+
+.team span:hover
+{
+   color: blue;
+   border-width: 22px;
+   border-bottom: 2px solid blue;
+   cursor: pointer;
+}
+
+.our-team p
+{
+	text-align: center;
+	color: white;
+	font-size: 26px;
+}
+
+ aside  
+{
+	width: 30px;
+	float: right;
+	text-align: right;
+	color: white;
+	display: inline-block;
+}
+
+.Contacts
+{
+	height: 30px;
+	background: green;
+}
+
+.Contacts h2
+{
+	text-align: center;
+}
+
+footer 
+{
+	width: 40%;
+	margin: 5%;
+}
